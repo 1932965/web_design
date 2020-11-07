@@ -1,3 +1,112 @@
-.text {
-   color=red
+body{
+    font-family: "나눔스퀘어", "나눔고딕", "나눔명조";
+    background-color: #C2CED6;
 }
+
+header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #C2CED6;
+    padding: 1px;
+    overflow: hidden;
+}
+
+header h1{
+    width: 100%;
+    float: center ;
+    text-align: center;
+
+}
+
+header nav {
+    color: #fff;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    float: center;
+    margin: 70px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 나눔스퀘어;
+}
+
+#withcolors_I{
+    width: 1000px;
+    margin-top: auto;
+}
+
+section{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #fff;
+    text-align:center;
+}
+
+footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 0;
+    padding: 10px;
+    background-color: #E40075;
+    color: #fff;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+@font-face{
+    font-family: 나눔스퀘어;
+    src:url('font/나눔스퀘어.ttf');
+    font-weight: bolder;
+}
+
+@font-face{
+    font-family: NanumMyeongjo;
+    src:url('NanumMyeongjo.ttf');
+    font-weight: medium;
+}
+
+
+header{
+    font-family: 나눔스퀘어;
+}
+
+body{
+    font-family: 나눔스퀘어;
+}
+
+.small{
+    font-size: small;
+    font-style: italic;
+    text-align: justify;
+}
+
+.medium{
+    font-size: medium;
+    text-align: center;
+    word-spacing: 0.1em;
+    line-height: 130%;
+}
+
+.h1{
+    font-variant: small-caps;
+}
+
+
