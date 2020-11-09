@@ -87,15 +87,22 @@ body{
 
 .small{
     font-size: small;
-    font-style: italic;
-    text-align: justify;
+    text-align: center;
+    word-spacing: 0.3em;
+    line-height: 250%;
 }
 
 .medium{
     font-size: medium;
     text-align: center;
-    word-spacing: 0.1em;
     line-height: 130%;
+}
+
+.large{
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+    line-height: 300%;
 }
 
 .h1{

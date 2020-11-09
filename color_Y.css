@@ -15,6 +15,7 @@ body{
     font-weight: medium;
 }
 
+
 header {
     width: 100%;
     margin-right: auto;
@@ -57,13 +58,20 @@ nav ul li a{
 }
 
 section{
-    width: auto;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
     text-align: center;
 }
 
+section{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+}
 
 footer{
     width: 80%;
@@ -76,30 +84,21 @@ footer{
     text-align: center;
 }
 
-
-header{
-    font-family: 나눔스퀘어;
-}
-
-body{
-    font-family: 나눔스퀘어;
-}
-
 .small{
     font-size: small;
-    font-style: italic;
-    text-align: justify;
-}
-
-.medium{
-    font-size: medium;
+    font-style: oblique;
     text-align: center;
-    word-spacing: 0.1em;
-    line-height: 130%;
 }
 
-.h1{
-    font-variant: small-caps;
+.large{
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
 }
 
-
+.pantone_dl {
+    text-align: medium
+    width: 500px;
+    height: 250px;
+    overflow: auto;
+}
